@@ -13,16 +13,16 @@
 
 body {
   background: #e5e5e5;
+  width: 1440px;
 }
 
 header .header-container {
-  width: 1440px;
   height: 70px;
   background: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 150px;
+  padding: 0px 140px;
 }
 header .header-container nav ul {
   display: flex;
@@ -117,4 +117,86 @@ header .header-container .nav-input label i {
   align-items: center;
   border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
+  cursor: pointer;
+}
+
+main {
+  padding: 30px 140px 0 140px;
+  background: #e5e5e5;
+  height: 500px;
+}
+main .main-container {
+  display: grid;
+  grid-template-columns: 278px 1fr 290px;
+  gap: 18px;
+}
+main .main-container .left-sidebar .profile-box {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  width: 278px;
+  height: 168px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+main .main-container .left-sidebar .profile-box .content-text {
+  display: flex;
+  align-items: center;
+}
+main .main-container .left-sidebar .profile-box .content-text > img {
+  width: 44px;
+  height: 44px;
+  border-radius: 45%;
+  margin-top: -25px;
+  margin-left: 12px;
+  border: 2px solid #fff;
+}
+main .main-container .left-sidebar .profile-box .content-text .name-job {
+  padding-left: 5px;
+}
+main .main-container .left-sidebar .profile-box .content-text .name-job .name {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+main .main-container .left-sidebar .profile-box .content-text .name-job .job {
+  color: rgba(0, 0, 0, 0.46);
+  font-size: 10px;
+}
+main .main-container .left-sidebar .profile-box .content-text .box-bar {
+  width: 61px;
+  height: 3px;
+  background: #f6f6f6;
+  border-radius: 8px;
+  margin-left: 46px;
+}
+main .main-container .left-sidebar .profile-box .content-text .box-bar span {
+  background: var(--color-blue);
+  width: auto;
+  height: 2px;
+  display: block;
+  border-radius: 8px;
+}
+main .main-container .left-sidebar .profile-box .content-text .box-bar span::before {
+  content: attr(title);
+  font-size: 10px;
+  color: var(--color-blue);
+  position: relative;
+  top: -10px;
+  right: -72px;
+}
+main .main-container .left-sidebar .profile-box .box-bottom {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 8px 23px;
+  border-top: 1px solid #eeeeee;
+  margin-top: 1rem;
+}
+main .main-container .left-sidebar .profile-box .box-bottom img {
+  padding-right: 18px;
+  cursor: pointer;
+}
+main .main-container .left-sidebar .profile-box .box-bottom span {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.46);
 }/*# sourceMappingURL=style.css.map */
