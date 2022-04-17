@@ -1,91 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Linkedin Clone By Hamid</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="header-container">
-        <div class="logo">
-          <a href="#">
-            <img src="./images/Logo.png" />
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linkedin Clone By Hamid</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="#">
+          <img src="./images/Logo.png" />
+        </a>
+      </div>
+      <nav>
+        <ul id="nav-button">
+          <li class="nav-link active">
+            <a href="#"><i class="icon-home"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><i class="icon-user"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><i class="icon-work"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+              <i class="icon-notification"></i>
+              <div class="notification-count">9+</div>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><i class="icon-chat"></i>
+              <div class="chat-count">6</div>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#"><i class="icon-profile"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-input">
+        <div class="line"></div>
+        <label>
+          <input type="text" placeholder="Search for anything (Jobs)" />
+          <i class="icon-search"></i>
+        </label>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-container">
+      <div class="left-sidebar">
+        <div class="profile-box">
+          <img src="./images/Rectangle19.png" />
+
+          <div class="content-text">
+            <img src="./images/profileImg.png" />
+
+            <div class="name-job">
+              <div class="name">
+                H.Hamid
+                <img src="./images/LogoIn.png" />
+              </div>
+              <div class="job">Web Developer</div>
+            </div>
+
+            <span class="box-bar">
+              <span style="width: 50%" title="50%"></span>
+            </span>
+          </div>
+          <div class="box-bottom">
+            <a href="#"> <img src="./images/Plus.png" /> </a>
+            <span>Add another account</span>
+          </div>
         </div>
-        <nav>
-          <ul id="nav-button">
-            <li class="nav-link active">
-              <a href="#"><i class="icon-home"></i></a>
-            </li>
-            <li class="nav-link">
-              <a href="#"><i class="icon-user"></i></a>
-            </li>
-            <li class="nav-link">
-              <a href="#"><i class="icon-work"></i></a>
-            </li>
-            <li class="nav-link">
+        <nav class="menu">
+          <ul>
+            <li>
               <a href="#">
-                <i class="icon-notification"></i>
-                <div class="notification-count">9+</div>
+                <img src="./images/Play.png" alt="" />
+                Learning
               </a>
             </li>
-            <li class="nav-link">
-              <a href="#"
-                ><i class="icon-chat"></i>
-                <div class="chat-count">6</div>
+            <li>
+              <a href="#">
+                <img src="./images/Chart.png" alt="" />
+                Insights
               </a>
             </li>
-            <li class="nav-link">
-              <a href="#"><i class="icon-profile"></i></a>
+            <li>
+              <a href="#">
+                <img src="./images/AddUser.png" alt="" />
+                Find colleagues
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Bookmark.png" alt="" />
+                Bookmarks
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Game.png" alt="" />
+                Gaming
+                <div class="game-new">New</div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Setting.png" alt="" />
+                Settings
+              </a>
             </li>
           </ul>
         </nav>
-        <div class="nav-input">
-          <div class="line"></div>
-          <label>
-            <input type="text" placeholder="Search for anything (Jobs)" />
-            <i class="icon-search"></i>
-          </label>
+        <div class="hashtags">
+          <div class="hashtags-header">
+            <h4>Followed hashtags</h4>
+            <a href="#"> <img src="./images/Plus.png" /> </a>
+          </div>
+          <span class="hashtag">
+            <a href="#"> #work </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #business </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #hr </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #userinterface </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #digital </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #userexperience </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #ux </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #ui </a>
+          </span>
+          <span class="hashtag">
+            <a href="#"> #freelance </a>
+          </span>
         </div>
       </div>
-    </header>
-
-    <main>
-      <div class="main-container">
-        <div class="left-sidebar">
-          <div class="profile-box">
-            <img src="./images/Rectangle19.png" />
-
-            <div class="content-text">
+      <div class="content">
+        <div class="new-post">
+          <div class="new-post-header">
+            <div class="profile-img">
               <img src="./images/profileImg.png" />
+            </div>
+            <label class="new-post-content">
+              <textarea placeholder="Write something ... " name="" id=""></textarea>
+            </label>
+          </div>
+          <div class="new-post-footer">
+            <ul>
+              <li>
+                <label>
+                  <input type="file" />
+                  <img src="./images/Photo.png" alt="" srcset="" />
+                  Photo
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="file" />
+                  <img src="./images/Video.png" alt="" srcset="" />
+                  Video
+                </label>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/Calendar.png" alt="" srcset="" />
+                  Event
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/Document.png" alt="" srcset="" />
+                  Article
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/Send.png" alt="" srcset="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
-              <div class="name-job">
+        <div class="post">
+          <div class="post-header">
+            <a class="post-profile" href="#">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <div class="profile-name-job">
                 <div class="name">
-                  H.Hamid
-                  <img src="./images/LogoIn.png" />
+                  Hamid Hamidbeyli
+                  <img src="./images/LogoIn.png" alt="" srcset="" />
                 </div>
-                <div class="job">Web Developer</div>
+                <small>web developer</small>
+              </div>
+            </a>
+            <a class="dot" href="#"> <i class="icon-dot-3"></i> </a>
+          </div>
+
+          <h4 class="content-header">-Healthy Tracking App</h4>
+          <img src="./images/Rectangle22.png" alt="" srcset="" />
+
+          <div class="post-footer">
+            <div class="post-icons">
+              <div class="icon-left">
+                <a href="#"> <i class="icon-like"></i>
+
+                  <p> <img src="./images/smile.svg" alt="" srcset="">+99</p>
+                </a>
+                <a href="#"> <i class="icon-chat"></i>
+                  <p class="comment">9</p>
+                </a>
+                </a>
+                <a href="#"> <i class="icon-send"></i> </a>
+              </div>
+              <a href="#"> <i class="icon-bookmark"></i> </a>
+            </div>
+
+            <div class="post-recommend">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <input placeholder="Write a comment" type="text" />
+              <div class="icon-bottom-send">
+
+                <label>
+                  <input type="file">
+                  <i class="icon-voice"></i>
+                </label>
+                <label>
+                  <input type="file">
+                  <i class="icon-image"></i>
+                </label>
+
+
               </div>
 
-              <span class="box-bar">
-                <span style="width: 50%" title="50%"></span>
-              </span>
-            </div>
-            <div class="box-bottom">
-              <img src="./images/Plus.png" />
-              <span>Add another account</span>
+
             </div>
           </div>
         </div>
-        <div class="content">center</div>
-        <div class="right-sidebar">sag</div>
-      </div>
-    </main>
+        <div class="post">
+          <div class="post-header">
+            <a class="post-profile" href="#">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <div class="profile-name-job">
+                <div class="name">
+                  Hamid Hamidbeyli
+                  <img src="./images/LogoIn.png" alt="" srcset="" />
+                </div>
+                <small>web developer</small>
+              </div>
+            </a>
+            <a class="dot" href="#"> <i class="icon-dot-3"></i> </a>
+          </div>
 
-    <script src="app.js"></script>
-  </body>
+          <h4 class="content-header">-Healthy Tracking App</h4>
+          <img src="./images/Rectangle22.png" alt="" srcset="" />
+
+          <div class="post-footer">
+            <div class="post-icons">
+              <div class="icon-left">
+                <a href="#"> <i class="icon-like"></i>
+
+                  <p> <img src="./images/smile.svg" alt="" srcset="">+99</p>
+                </a>
+                <a href="#"> <i class="icon-chat"></i>
+                  <p class="comment">9</p>
+                </a>
+                </a>
+                <a href="#"> <i class="icon-send"></i> </a>
+              </div>
+              <a href="#"> <i class="icon-bookmark"></i> </a>
+            </div>
+
+            <div class="post-recommend">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <input placeholder="Write a comment" type="text" />
+              <div class="icon-bottom-send">
+
+                <label>
+                  <input type="file">
+                  <i class="icon-voice"></i>
+                </label>
+                <label>
+                  <input type="file">
+                  <i class="icon-image"></i>
+                </label>
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-header">
+            <a class="post-profile" href="#">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <div class="profile-name-job">
+                <div class="name">
+                  Hamid Hamidbeyli
+                  <img src="./images/LogoIn.png" alt="" srcset="" />
+                </div>
+                <small>web developer</small>
+              </div>
+            </a>
+            <a class="dot" href="#"> <i class="icon-dot-3"></i> </a>
+          </div>
+
+          <h4 class="content-header">-Healthy Tracking App</h4>
+          <img src="./images/Rectangle22.png" alt="" srcset="" />
+
+          <div class="post-footer">
+            <div class="post-icons">
+              <div class="icon-left">
+                <a href="#"> <i class="icon-like"></i>
+
+                  <p> <img src="./images/smile.svg" alt="" srcset="">+99</p>
+                </a>
+                <a href="#"> <i class="icon-chat"></i>
+                  <p class="comment">9</p>
+                </a>
+                </a>
+                <a href="#"> <i class="icon-send"></i> </a>
+              </div>
+              <a href="#"> <i class="icon-bookmark"></i> </a>
+            </div>
+
+            <div class="post-recommend">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <input placeholder="Write a comment" type="text" />
+              <div class="icon-bottom-send">
+
+                <label>
+                  <input type="file">
+                  <i class="icon-voice"></i>
+                </label>
+                <label>
+                  <input type="file">
+                  <i class="icon-image"></i>
+                </label>
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-header">
+            <a class="post-profile" href="#">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <div class="profile-name-job">
+                <div class="name">
+                  Hamid Hamidbeyli
+                  <img src="./images/LogoIn.png" alt="" srcset="" />
+                </div>
+                <small>web developer</small>
+              </div>
+            </a>
+            <a class="dot" href="#"> <i class="icon-dot-3"></i> </a>
+          </div>
+
+          <h4 class="content-header">-Healthy Tracking App</h4>
+          <img src="./images/Rectangle22.png" alt="" srcset="" />
+
+          <div class="post-footer">
+            <div class="post-icons">
+              <div class="icon-left">
+                <a href="#"> <i class="icon-like"></i>
+
+                  <p> <img src="./images/smile.svg" alt="" srcset="">+99</p>
+                </a>
+                <a href="#"> <i class="icon-chat"></i>
+                  <p class="comment">9</p>
+                </a>
+                </a>
+                <a href="#"> <i class="icon-send"></i> </a>
+              </div>
+              <a href="#"> <i class="icon-bookmark"></i> </a>
+            </div>
+
+            <div class="post-recommend">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <input placeholder="Write a comment" type="text" />
+              <div class="icon-bottom-send">
+
+                <label>
+                  <input type="file">
+                  <i class="icon-voice"></i>
+                </label>
+                <label>
+                  <input type="file">
+                  <i class="icon-image"></i>
+                </label>
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-header">
+            <a class="post-profile" href="#">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <div class="profile-name-job">
+                <div class="name">
+                  Hamid Hamidbeyli
+                  <img src="./images/LogoIn.png" alt="" srcset="" />
+                </div>
+                <small>web developer</small>
+              </div>
+            </a>
+            <a class="dot" href="#"> <i class="icon-dot-3"></i> </a>
+          </div>
+
+          <h4 class="content-header">-Healthy Tracking App</h4>
+          <img src="./images/Rectangle22.png" alt="" srcset="" />
+
+          <div class="post-footer">
+            <div class="post-icons">
+              <div class="icon-left">
+                <a href="#"> <i class="icon-like"></i>
+
+                  <p> <img src="./images/smile.svg" alt="" srcset="">+99</p>
+                </a>
+                <a href="#"> <i class="icon-chat"></i>
+                  <p class="comment">9</p>
+                </a>
+                </a>
+                <a href="#"> <i class="icon-send"></i> </a>
+              </div>
+              <a href="#"> <i class="icon-bookmark"></i> </a>
+            </div>
+
+            <div class="post-recommend">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <input placeholder="Write a comment" type="text" />
+              <div class="icon-bottom-send">
+
+                <label>
+                  <input type="file">
+                  <i class="icon-voice"></i>
+                </label>
+                <label>
+                  <input type="file">
+                  <i class="icon-image"></i>
+                </label>
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-header">
+            <a class="post-profile" href="#">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <div class="profile-name-job">
+                <div class="name">
+                  Hamid Hamidbeyli
+                  <img src="./images/LogoIn.png" alt="" srcset="" />
+                </div>
+                <small>web developer</small>
+              </div>
+            </a>
+            <a class="dot" href="#"> <i class="icon-dot-3"></i> </a>
+          </div>
+
+          <h4 class="content-header">-Healthy Tracking App</h4>
+          <img src="./images/Rectangle22.png" alt="" srcset="" />
+
+          <div class="post-footer">
+            <div class="post-icons">
+              <div class="icon-left">
+                <a href="#"> <i class="icon-like"></i>
+
+                  <p> <img src="./images/smile.svg" alt="" srcset="">+99</p>
+                </a>
+                <a href="#"> <i class="icon-chat"></i>
+                  <p class="comment">9</p>
+                </a>
+                </a>
+                <a href="#"> <i class="icon-send"></i> </a>
+              </div>
+              <a href="#"> <i class="icon-bookmark"></i> </a>
+            </div>
+
+            <div class="post-recommend">
+              <img src="./images/profileImg.png" alt="" srcset="" />
+              <input placeholder="Write a comment" type="text" />
+              <div class="icon-bottom-send">
+
+                <label>
+                  <input type="file">
+                  <i class="icon-voice"></i>
+                </label>
+                <label>
+                  <input type="file">
+                  <i class="icon-image"></i>
+                </label>
+
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-sidebar">
+        <div class="box-premium">
+          <div class="left">
+            <h5>Try Premium<span>for free</span></h5>
+            <p>
+              --One month free
+              <img src="./images/LogoIn.png" alt="" srcset="">
+            </p>
+            <a href="#" class="btn">Try free</a>
+          </div>
+          <div class="right">
+            <img class="logo" src="./images/LogoIn.png" alt="" srcset="">
+            <img class="img" src="./images/Teamwork.png" alt="" srcset="">
+          </div>
+
+        </div>
+        <div class="box-people">
+          <h4>People you may know:</h4>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./images/Jobs.png" alt="" srcset="">
+                <div class="name-job">
+                  <h6>Steve Jobs</h6>
+                  <p>CEO of Apple</p>
+                </div>
+              </a>
+              <a href="#" class="btn">Connect</a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Ryan.png" alt="" srcset="">
+                <div class="name-job">
+                  <h6>Ryan Roslansky</h6>
+                  <p>CEO of Linkedin</p>
+                </div>
+              </a>
+              <a href="#" class="btn">Connect</a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Field.png" alt="" srcset="">
+                <div class="name-job">
+                  <h6>Dylan Field</h6>
+                  <p>CEO of Figma</p>
+                </div>
+              </a>
+              <a href="#" class="btn">Connect</a>
+            </li>
+          </ul>
+          <a class="seeAll" href="#">See All</a>
+        </div>
+        <div class="box-pages">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./images/figmalogo.png" alt="">
+                <p>UX Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Icon17.png" alt="">
+                <p>UI Design</p>
+                <span>+99</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./images/Plus.png" alt="">
+                <p>Add new page</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="box-message">
+          <a class="chat" href="#">
+            <i class="icon-chat-1"></i>
+          </a>
+          <input type="text" placeholder="Messages">
+          <span>6</span>
+          <a class="arrow" href="#">
+            <i class="icon-down-open-big"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+
 </html>
